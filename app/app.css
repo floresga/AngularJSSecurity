@@ -1,0 +1,39 @@
+body, td {
+  font-family: Arial, Helvetica,sans-serif;
+  font-size: 12px;
+}
+
+div{
+  box-sizing: border-box;
+  border: #999999 2px solid;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+p{
+  margin: 4px;
+}
+
+input{
+  border: 1px solid #2e6da4;
+  border-radius: 8px;
+  padding: 1px 8px 1px 8px;
+}
+
+div.ng-scope{
+  background: #ffffff;
+}
+
+.ng-binding{
+  color: #000000;
+}
+
+input.ng-pristine{
+  background: #ddffdd;
+}
+
+input.ng-dirty{
+  background: #ffdddd;
+}

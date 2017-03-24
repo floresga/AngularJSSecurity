@@ -1,0 +1,22 @@
+<html ng-app="myApp">
+<head>
+    <title>using_services_to_GET_data</title>
+
+    <script type="text/javascript" src="./bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="./bower_components/angular-resource/angular-resource.js"></script>
+    <script type="text/javascript" src="./bower_components/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="./bower_components/angular-cookies/angular-cookies.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+<div ng-controller="MainController as main">
+    <p>Welcome to Advanced AngularJS!</p>
+    <p>My token is: <span ng-bind="token"></span>.</p>
+    <p><button ng-click="main.model.sendRequest()">Send Request</button></p>
+
+</div>
+</body>
+</html>
