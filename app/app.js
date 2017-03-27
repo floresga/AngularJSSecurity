@@ -33,7 +33,7 @@ angular.module('myApp').run(function ($rootScope, $q, $http) {
 
     var defer = $q.defer();
     // get the token from the server, store it in the root scope
-    $http.get('http://192.168.0.207/getToken')
+    $http.get('http://10.0.0.4:8088/getToken')
         .then (function (response) {
                 defer.resolve(response.data);
             }.bind(this),
